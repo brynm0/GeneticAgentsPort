@@ -10,7 +10,7 @@ public class MainApp extends PApplet{
     private ArrayList<Vehicle> vehicles;
     private ArrayList<PVector> food;
     private ArrayList<PVector> poison;
-    int NUM_VEHICLES, NUM_FOOD, NUM_POISON;
+    private int NUM_VEHICLES, NUM_FOOD, NUM_POISON;
 
 
     public static void main(String[] args) {

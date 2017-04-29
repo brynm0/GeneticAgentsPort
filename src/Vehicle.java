@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 import static java.lang.Float.POSITIVE_INFINITY;
 
-public class Vehicle {
+class Vehicle {
     private PApplet app;
     private PVector acceleration;
     private PVector velocity;
@@ -106,7 +106,7 @@ public class Vehicle {
             return wander();
         }
     }
-    PVector wander() {
+    private PVector wander() {
         PVector v = new PVector(app.random(-5,5), app.random(-5,5));
     //    v.limit(maxforce);
         if (app.random(1) > 0.9) {
